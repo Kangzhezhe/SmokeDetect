@@ -1,0 +1,10 @@
+{
+    "clangd.arguments": [
+        "-query-driver=/usr/bin/arm-none-eabi*",
+        "-clang-tidy",
+    ],
+    "cmake.generator": "Ninja",
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "cortex-debug.variableUseNaturalFormat": false,
+    "commentTranslate.hover.enabled": true,
+}

@@ -1,0 +1,13 @@
+// A very simple protocol definition, consisting of only
+// one message.
+
+syntax = "proto2";
+
+message SimpleMessage {
+    required uint32 LED_R = 1;
+    required uint32 LED_B = 2;
+    required double LED_R_B = 3;
+    required int32 state = 4;
+}
+
+// protoc --nanopb_out=. .\simple.proto -I.
